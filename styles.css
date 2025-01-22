@@ -21,20 +21,25 @@ main
 {
   display: flex;
   flex-direction: row;
-  justify-items: center;
   width: 50%;
-  height: 14rem;
+  height: 22rem;
   background-color: whitesmoke;
-  padding: 3rem;
   border: .1rem solid black;
   border-radius: 1rem;
   box-shadow: 1px 1px 8px black;
   margin-top: 5rem;
+  padding: 2rem;
+}
+
+section{
+  display: flex;
+  flex-direction: column
 }
 
 img
 {
-  margin-right: 5rem;
+  margin-top: 1rem;
+  margin-right: 3rem;
 }
 
 h1
@@ -50,9 +55,9 @@ h1
   background-color: darkgreen;
   border-radius: .3rem;
   box-shadow: 1px 1px 3px black;
-  width: 7.4rem;
+  width: 7.3rem;
   height: 1.5rem;
-  margin-right: .3rem;
+  margin: 0 .2rem 1rem 0; 
 }
 
 #button2
