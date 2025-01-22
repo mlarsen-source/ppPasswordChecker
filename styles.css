@@ -1,0 +1,81 @@
+/*
+
+Authors: Matthew Larsen & Justin Saephan
+Date: 01/21/2025
+Pair Program Password Checker
+Filename: styles.css
+File Description: CSS for Password Checker webpage
+
+*/
+
+
+body
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main
+{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  width: 50%;
+  height: 14rem;
+  background-color: whitesmoke;
+  padding: 3rem;
+  border: .1rem solid black;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 8px black;
+  margin-top: 5rem;
+}
+
+img
+{
+  margin-right: 5rem;
+}
+
+h1
+{
+  color: darkgreen;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+#button1
+{
+  color:white;
+  background-color: darkgreen;
+  border-radius: .3rem;
+  box-shadow: 1px 1px 3px black;
+  width: 7.4rem;
+  height: 1.5rem;
+  margin-right: .3rem;
+}
+
+#button2
+{
+  background-color: antiquewhite;
+  border-radius: .3rem;
+  box-shadow: 1px 1px 3px black;
+  height: 1.5rem;
+}
+
+#input{
+  margin-bottom: 1rem;
+}
+
+.outputGreenText
+{
+  color: darkgreen;
+  font-weight: bold;
+  font-size: small;
+}
+
+.outputRedText
+{
+  color: red;
+  font-size: small;
+}
